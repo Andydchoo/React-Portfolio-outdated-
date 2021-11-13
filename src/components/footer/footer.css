@@ -1,0 +1,21 @@
+.footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.footer .git {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.footer .link {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
