@@ -1,3 +1,7 @@
+//currently working on mobile friendly views
+//changed some css into mui styling
+//working on how to make image scale on larger/smaller screens
+//need to make contact form actually function
 import { useState } from "react";
 import './contact.css';
 
@@ -11,9 +15,30 @@ export default function Contact() {
     }
 
     return (
-        <div className="contact" id="contact">
-            <div className="left-container">
-                <img src="assets/handshake.jpg" />
+        <div
+            className="contact"
+            id="contact"
+            style={{
+                backgroundColor: 'white',
+                display: 'flex'
+            }}
+        >
+            <div
+                className="left-container"
+                style={{
+                    flex: '1',
+                    overflow: 'hidden'
+                }}
+            >
+                <img
+                    src="assets/handshake.jpg"
+                    alt="Two Men Shaking Hands"
+                    style={{
+                        width: '100%',
+                        height: 'auto',
+                        overflow: 'hidden'
+                    }}
+                />
             </div>
             <div className="right-container">
                 <h2>Contact</h2>
