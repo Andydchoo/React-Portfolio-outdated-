@@ -67,7 +67,7 @@ export default function Navbar() {
                         variant='contained'
                         size='small'
                         style={{
-                            backgroundColor: '#2EC4B6',
+                            backgroundColor: '#57F287',
                             color: '#2C2F33',
                             fontWeight: '600',
                             fontSize: '1.5vw'

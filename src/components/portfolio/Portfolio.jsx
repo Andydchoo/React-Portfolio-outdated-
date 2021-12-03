@@ -16,7 +16,7 @@ export default function Portfolio() {
                     fontSize: '6vw',
                     display: 'flex',
                     justifyContent: 'center',
-                    color: '#F6F6F6',
+                    color: '#404EED',
                 }}
             >
                 Portfolio

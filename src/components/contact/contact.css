@@ -1,12 +1,12 @@
-.contact{
+/* .contact{
     background-color: white;
     display: flex;
-}
+} */
 
-.contact .left-container {
+/* .contact .left-container {
     flex: 1;
     overflow: hidden;
-}
+} */
 
 .contact .left-container img {
     height: 100%;
@@ -25,6 +25,7 @@
 
 .contact .right-container h2{
     font-size: 30px;
+    color: #404EED;
 }
 
 .contact .right-container form {

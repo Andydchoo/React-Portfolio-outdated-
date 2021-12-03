@@ -6,7 +6,7 @@ export default function Resume() {
         <div
             id='resume'
             style={{
-                backgroundColor: '#CCFF66',
+                backgroundColor: '#99AAB5',
                 height: 'calc(100vh - 65px)',
                 overflow: 'hidden'
             }}
@@ -16,7 +16,8 @@ export default function Resume() {
                 justifyContent: 'center',
                 fontSize: '6vw',
                 overflow: 'hidden',
-                paddingTop: '0px'
+                paddingTop: '0px',
+                color: '#404EED'
                 }}
             >
                 Resume
