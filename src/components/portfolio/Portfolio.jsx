@@ -27,11 +27,11 @@ export default function Portfolio() {
                     display: 'flex',
                     flexWrap: 'wrap',
                     flexDirection: 'row',
-                    padding: '12px'
+                    padding: '12px',
                 }}
             >
 
-                <div style={{flex: '1', padding: '12px'}}>
+                <div style={{flex: '1', padding: '5%'}}>
                     <a href="https://github.com/Copernichris/CryptoWatch" target="_blank" rel="noreferrer">
                         <h3 style={{color: 'lightblue'}}>CryptoWatch</h3>
                     </a>
@@ -48,7 +48,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div style={{flex: '1', padding: '12px'}}>
+                <div style={{flex: '1', padding: '5%'}}>
                     <a href="https://github.com/Andydchoo/Retro-Game-Market" target="_blank" rel="noreferrer">
                     <h3 style={{color: 'lightblue'}}>RGMarket</h3>
                     </a>
@@ -75,7 +75,7 @@ export default function Portfolio() {
                     padding: '12px'
                 }}
             >
-                <div style={{flex: '1', padding: '12px'}}>
+                <div style={{flex: '1', padding: '5%'}}>
                     <a href="https://github.com/Andydchoo/Note-Taker" target="_blank" rel="noreferrer">
                         <h3 style={{color: 'lightblue'}}>Note Taker</h3>
                     </a>
@@ -92,7 +92,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div style={{flex: '1', padding: '12px'}}>
+                <div style={{flex: '1', padding: '5%'}}>
                     <a href="https://github.com/Copernichris/CryptoWatch" target="_blank" rel="noreferrer">
                         <h3 style={{color: 'lightblue'}}>CryptoWatch</h3>
                     </a>

@@ -13,8 +13,9 @@ export default function Intro() {
             }}>
                 <div className="imgContainer" style= {{
                     width: '100%',
-                    height: '100%',
-                    overflow: 'hidden'
+                    height: 'auto',
+                    overflow: 'hidden',
+                    background: '#23272A'
                 }}>
                     <img className="img" src="assets/selfie-ny.jpeg" alt="Andy Choo"
                     style={{
@@ -28,7 +29,8 @@ export default function Intro() {
                 flex: '1',
                 backgroundColor: '#99AAB5',
                 postion: 'relative',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                height: 'auto'
             }}>
                 <div className="wrapper" style={{
                     color: 'white',
@@ -44,6 +46,7 @@ export default function Intro() {
                         color: '#404EED',
                         overflow: 'hidden'
                     }}>
+                        {/* Gonna use some api for the time to say good afternoon/morning/evening */}
                         Welcome.
                     </h1>
 

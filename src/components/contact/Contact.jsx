@@ -42,6 +42,8 @@ export default function Contact() {
             </div>
             <div className="right-container">
                 <h2>Contact</h2>
+                <h4 style={{color: 'red'}}>(Contact form is currently a WIP)</h4>
+                <h4 style={{color: 'red'}}>(Please reach out to my email: andydchoo@gmail.com)</h4>
                 <form onSubmit={handleSubmit}>
                     <input className="email" type="text" placeholder="Email"/>
                     <textarea className="message" placeholder="Message"></textarea>
