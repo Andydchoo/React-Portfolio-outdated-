@@ -26,6 +26,9 @@
 .contact .right-container h2{
     font-size: 30px;
     color: #404EED;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .contact .right-container form {
@@ -43,6 +46,7 @@
     height: 30px;
     font-size: 14px;
     margin: 12px;
+    padding-top: 12px
 }
 
 .contact .right-container textarea {

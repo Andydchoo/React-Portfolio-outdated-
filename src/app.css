@@ -13,6 +13,5 @@
 }
 .sections {
     width: 100%;
-    height: calc(100vh - 65px);
     scroll-snap-align: start;
 }

@@ -42,14 +42,14 @@ export default function Contact() {
             </div>
             <div className="right-container">
                 <h2>Contact</h2>
-                <h4 style={{color: 'red'}}>(Contact form is currently a WIP)</h4>
-                <h4 style={{color: 'red'}}>(Please reach out to my email: andydchoo@gmail.com)</h4>
-                <form onSubmit={handleSubmit}>
+                <h2 style={{color: 'black', paddingTop: '25px'}}>For any inquiries,</h2>
+                <h2 style={{color: 'black', paddingTop: '15px'}}>please reach out to my email: <h2 href='email'>andydchoo@gmail.com</h2></h2>
+                {/* <form onSubmit={handleSubmit}>
                     <input className="email" type="text" placeholder="Email"/>
                     <textarea className="message" placeholder="Message"></textarea>
                     <button type="submit">Send</button>
                     {(message == true) && <span>Thank you for your message!</span>}
-                </form>
+                </form> */}
             </div>
         </div>
     )
