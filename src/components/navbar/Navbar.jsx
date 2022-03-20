@@ -1,8 +1,12 @@
 import { Button, Grid } from '@mui/material';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 // working on mobile friendly view.
 // Find way to move buttons into hamburger when viewing on mobile
+//useMediaQuery for adjusting styling in mobile view
 export default function Navbar() {
+    const matches = useMediaQuery('(min-width:600px)');
+
     return (
         <div className="navbar" style={{
             backgroundColor: '#2C2F33',

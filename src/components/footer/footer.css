@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: lightsalmon;
     padding: 12px;
 }
 

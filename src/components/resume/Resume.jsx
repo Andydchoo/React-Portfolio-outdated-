@@ -1,4 +1,5 @@
 //Align and style pdf to be more aesthetic
+//fix design of left side
 import './resume.css'
 import { useState, useEffect } from 'react';
 import Stack from '@mui/material/Stack';
@@ -29,8 +30,7 @@ export default function Resume() {
             id='resume'
             style={{
                 backgroundColor: '#99AAB5',
-                height: 'calc(100vh - 65px)',
-                overflow: 'hidden',
+                height: '100%',
                 display: 'flex',
                 justifyContent: 'center'
             }}

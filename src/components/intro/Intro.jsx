@@ -1,10 +1,12 @@
 // working on mobile friendly view.
 //need to fix small empty space under photo
+//looks terrible on mobile/smaller screens
 export default function Intro() {
     return (
         <div className="intro" id="intro" style={{
             backgroundColor: 'coral',
             display: 'flex',
+            height: '100%',
         }}>
             <div className="left-container" style={{
                 flex: '1',
