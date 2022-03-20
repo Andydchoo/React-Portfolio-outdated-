@@ -13,4 +13,4 @@ Image of deployed website:
 
 
 Linked to the deployed website:
-https://blooming-scrubland-05398.herokuapp.com/
+https://andychoo.herokuapp.com/
