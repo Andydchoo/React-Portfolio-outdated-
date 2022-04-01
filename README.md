@@ -53,12 +53,12 @@ A place to briefly learn about Andy Choo's web development.
 <br>
 
 # Screenshots
+<br>
+<img width="1437" alt="Screen Shot 2022-04-01 at 4 05 17 PM" src="https://user-images.githubusercontent.com/84701751/161337282-f885e964-288d-4dd5-8523-a4069279fef7.png">
+
 
 #
 <br>
-
-## Home page
-![image](<img width="1437" alt="Screen Shot 2022-04-01 at 4 05 17 PM" src="https://user-images.githubusercontent.com/84701751/161334452-fce74582-a3b5-4f28-9f94-59b3082d0563.png">)
 
 # Technologies
 #### Front End
@@ -110,7 +110,7 @@ A place to briefly learn about Andy Choo's web development.
 <tr>
 <td>
 <td>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Andydchoo"><img src="https://avatars.githubusercontent.com/Andydchoo?s=400&amp;v=1" alt="Andy Choo" style="max-width:100%;"></a>Frontend
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Andydchoo"><img src="https://avatars.githubusercontent.com/Andydchoo?s=400&amp;v=1" alt="Andy Choo" style="max-width:100%;"></a>
 </td>
 </tr>
 </tbody>
