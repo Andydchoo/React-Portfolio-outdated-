@@ -49,7 +49,7 @@ export default function Intro() {
                         overflow: 'hidden'
                     }}>
                         {/* Gonna use some api for the time to say good afternoon/morning/evening */}
-                        Welcome.
+                        Hello!
                     </h1>
 
                     <h2 style={{

@@ -32,7 +32,7 @@ export default function Resume() {
                 backgroundColor: '#99AAB5',
                 height: '100%',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
             }}
         >
             <h1 
@@ -47,12 +47,19 @@ export default function Resume() {
                 color: '#404EED'
               }}
             >
-                Resume
+                <a 
+                  href="https://docs.google.com/document/d/1WmBt5b2q4WbkGnadHP-Qx6uI7-VqkDmVg1RgikmBp2k/edit?usp=sharing"
+                  style={{
+                      textDecoration: 'none'
+                  }}
+                >
+                    Resume
+                </a>
             </h1>
-            <Document file={file} onLoadSuccess={onDocumentLoadSuccess} options={options} style={{flex: '1', height: '100%'}}>
+            <Document file={file} onLoadSuccess={onDocumentLoadSuccess} options={options} style={{flex: '1', maxHeight: '100%'}}>
                 {Array.from(new Array(numPages), (el, index) => (
                     <Page key={`page_${index + 1}`} pageNumber={index + 1} style={{height: '70%'}}>
-                      <View style={{ color: 'white', textAlign: 'center', margin: 30, height: '70%'}}>
+                      <View style={{ color: 'white', textAlign: 'center', margin: 30, Maxheight: '70%'}}>
 
                       </View>
                     </Page>
