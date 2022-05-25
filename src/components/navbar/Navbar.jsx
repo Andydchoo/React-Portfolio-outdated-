@@ -26,7 +26,7 @@ export default function Navbar() {
                                 fontSize: '50px',
                                 fontWeight: '600',
                                 textDecoration: 'none',
-                                paddingLeft: '10px'
+                                paddingLeft: '10px',
                             }}>
                                 Andy Choo
                         </a>
@@ -38,7 +38,7 @@ export default function Navbar() {
                           variant='contained'
                           size='small'
                           style={{
-                              backgroundColor: '#5865F2',
+                              backgroundColor: '#F6F6F6',
                               color: '#2C2F33',
                               fontWeight: '600',
                               fontSize: '1.5vw'
@@ -53,7 +53,7 @@ export default function Navbar() {
                           variant='contained'
                           size='small'
                           style={{
-                              backgroundColor: '#57F287',
+                              backgroundColor: '#F6F6F6',
                               color: '#2C2F33',
                               fontWeight: '600',
                               fontSize: '1.5vw'
@@ -69,7 +69,7 @@ export default function Navbar() {
                             variant='contained'
                             size='small'
                             style={{
-                                backgroundColor: '#CCFF66',
+                                backgroundColor: '#F6F6F6',
                                 color: '#2C2F33',
                                 fontWeight: '600',
                                 fontSize: '1.5vw'
@@ -85,7 +85,7 @@ export default function Navbar() {
                             variant='contained'
                             size='small'
                             style={{
-                                backgroundColor: '#FF6666',
+                                backgroundColor: '#F6F6F6',
                                 color: '#2C2F33',
                                 fontWeight: '600',
                                 fontSize: '1.5vw'
