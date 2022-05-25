@@ -3,10 +3,6 @@
 import './resume.css'
 import { useState } from 'react';
 import Stack from '@mui/material/Stack';
-import { Document } from 'react-pdf';
-import { Page } from 'react-pdf';
-import { pdfjs } from 'react-pdf';
-import { View } from '@react-pdf/renderer';
 
 export default function Resume() {
     return (
