@@ -1,7 +1,6 @@
 //Align and style pdf to be more aesthetic
 //fix design of left side
 import './resume.css'
-import { useState } from 'react';
 import Stack from '@mui/material/Stack';
 
 export default function Resume() {
