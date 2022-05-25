@@ -55,8 +55,8 @@ export default function Portfolio() {
                     </a>
                     <a href="https://vodu2.herokuapp.com/" target="_blank" rel="noreferrer">
                         <img 
-                            src="assets/vodU.png"
-                            alt="CryptoWatch"
+                            src="assets/vodu.png"
+                            alt="VodU"
                             style={{
                                 overflow: 'hidden',
                                 width: '100%',
