@@ -27,7 +27,8 @@ export default function Resume() {
               }}
             >
                 <a 
-                  href="https://docs.google.com/document/d/1WmBt5b2q4WbkGnadHP-Qx6uI7-VqkDmVg1RgikmBp2k/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1WmBt5b2q4WbkGnadHP-Qx6uI7-VqkDmVg1RgikmBp2k/edit?usp=sharing" 
+                  target="_blank"
                   style={{
                       textDecoration: 'underline'
                   }}
