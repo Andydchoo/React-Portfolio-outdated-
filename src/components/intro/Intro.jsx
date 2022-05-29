@@ -4,20 +4,22 @@
 export default function Intro() {
     return (
         <div className="intro" id="intro" style={{
-            backgroundColor: 'coral',
             display: 'flex',
+            backgroundColor: 'coral',
             height: '100%',
         }}>
             <div className="left-container" style={{
                 flex: '1',
-                backgroundColor: '#99AAB5',
+                width: '100%',
+                height: 'auto',
+                backgroundColor: '#23272A',
                 overflow: 'hidden'
             }}>
                 <div className="imgContainer" style= {{
                     width: '100%',
                     height: 'auto',
                     overflow: 'hidden',
-                    background: '#23272A'
+                    background: '#23272A',
                 }}>
                     <img className="img" src="assets/selfie-ny.jpeg" alt="Andy Choo"
                     style={{
