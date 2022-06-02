@@ -8,7 +8,7 @@ export default function Resume() {
         <div
             id='resume'
             style={{
-                backgroundColor: '#99AAB5',
+                backgroundColor: '#936639',
                 height: '100%',
                 display: 'flex',
                 justifyContent: 'center',
@@ -22,7 +22,6 @@ export default function Resume() {
                 alignItems: 'center',
                 fontSize: '6vw',
                 overflow: 'hidden',
-                padding: '10px',
                 color: '#404EED'
               }}
             >
@@ -30,7 +29,8 @@ export default function Resume() {
                   href="https://docs.google.com/document/d/1WmBt5b2q4WbkGnadHP-Qx6uI7-VqkDmVg1RgikmBp2k/edit?usp=sharing" 
                   target="_blank"
                   style={{
-                      textDecoration: 'underline'
+                      color: '#333d29',
+                      textDecoration: 'none'
                   }}
                 >
                     Resume
@@ -41,7 +41,7 @@ export default function Resume() {
                     display: 'flex',
                     flex: '1',
                     justifyContent: 'center',
-                    backgroundColor: '#333333'
+                    backgroundColor: '#656d4a'
             }}>
                 <img src="assets/resume.png" alt="resume"/>
             </div>

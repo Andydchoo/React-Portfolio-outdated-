@@ -1,28 +1,41 @@
 import { Button, Grid } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import CodeIcon from '@mui/icons-material/Code';
+import DescriptionIcon from '@mui/icons-material/Description';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
-// working on mobile friendly view.
-// Find way to move buttons into hamburger when viewing on mobile
-//useMediaQuery for adjusting styling in mobile view
+// add hover effect to buttons
+// align buttons with edges of Navbar
+// find better colors for text
+// why does it look so boring and wrong?
+
 export default function Navbar() {
     const matches = useMediaQuery('(min-width:600px)');
 
     return (
         <div className="navbar" style={{
-            backgroundColor: '#2C2F33',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#7f4f24',
             width: '100%',
             position: 'fixed',
             height: '65px',
             top: '0',
             zIndex: '2',
             scroll: 'sticky',
-            display: 'flex'
+            overflow: 'hidden',
         }}>
-            <Grid container>
-                <Grid item xs={6}>
+            <Grid container style={{
+                display: 'flex',
+                justifyContent: 'center',
+            }}>
+                {/* <Grid item xs={6}>
                         <a href="#intro" className="name"
                             style={{
-                                color: '#5865F2',
+                                color: '#fefae0',
                                 fontSize: '50px',
                                 fontWeight: '600',
                                 textDecoration: 'none',
@@ -30,22 +43,39 @@ export default function Navbar() {
                             }}>
                                 Andy Choo
                         </a>
-                </Grid>
-                <Grid container alignItems="center" justifyContent="center" item xs={6} spacing={1}>
+                </Grid> */}
+                <Grid container alignItems="center" justifyContent="space-between" item xs={12} spacing={1}>
                     <Grid item>
                       <Button
                           href="#intro"
                           variant='contained'
                           size='small'
                           style={{
-                              backgroundColor: '#F6F6F6',
-                              color: '#2C2F33',
+                              backgroundColor: '#936639',
+                              color: '#582f0e',
                               fontWeight: '600',
-                              fontSize: '1.5vw'
+                              fontSize: '1.5vw',
+                              border: '2px solid #582f0e',
+                              borderRadius: '10px',
+                              boxShadow: 'none',
                           }}>
-                              Introduction
+                              <AccountBoxIcon />
+                              Andy Choo
                       </Button>
                     </Grid>
+
+                    {/* Trying to make a dividing line */}
+
+                    {/* <Grid item>
+                        <a style={{
+                            borderLeft: '5px solid #582f0e',
+                            height: '100%',
+                            left: '50%',
+                            marginLeft: '-3px',
+                            top: '0'
+                        }}>
+                        </a>
+                    </Grid> */}
                     
                     <Grid item>
                       <Button
@@ -53,12 +83,16 @@ export default function Navbar() {
                           variant='contained'
                           size='small'
                           style={{
-                              backgroundColor: '#F6F6F6',
-                              color: '#2C2F33',
+                              backgroundColor: '#936639',
+                              color: '#582f0e',
                               fontWeight: '600',
-                              fontSize: '1.5vw'
+                              fontSize: '1.5vw',
+                              border: '2px solid #582f0e',
+                              borderRadius: '10px',
+                              boxShadow: 'none',
                           }}
                       >
+                        <CodeIcon />
                         Portfolio
                     </Button>
                     </Grid>
@@ -69,29 +103,47 @@ export default function Navbar() {
                             variant='contained'
                             size='small'
                             style={{
-                                backgroundColor: '#F6F6F6',
-                                color: '#2C2F33',
+                                backgroundColor: '#936639',
+                                color: '#582f0e',
                                 fontWeight: '600',
-                                fontSize: '1.5vw'
+                                fontSize: '1.5vw',
+                                border: '2px solid #582f0e',
+                                borderRadius: '10px',
+                                boxShadow: 'none',
                             }}
                         >
+                            <DescriptionIcon />
                             Resume
                         </Button>
                     </Grid>
                     
                     <Grid item>
                         <Button
-                            href="#contact"
-                            variant='contained'
+                            href='https://github.com/Andydchoo'
+                            target="_blank"
+                            alt='GitHub'
                             size='small'
                             style={{
-                                backgroundColor: '#F6F6F6',
-                                color: '#2C2F33',
+                                color: '#582f0e',
                                 fontWeight: '600',
-                                fontSize: '1.5vw'
+                                fontSize: '1.5vw',
                             }}
                         >
-                            Contact
+                            <GitHubIcon />
+                        </Button>
+
+                        <Button
+                            href='https://www.linkedin.com/in/andychoo'
+                            target="_blank"
+                            alt='LinkedIn'
+                            size='small'
+                            style={{
+                                color: '#582f0e',
+                                fontWeight: '600',
+                                fontSize: '1.5vw',
+                            }}
+                        >
+                            <LinkedInIcon />
                         </Button>
                     </Grid>
                 </Grid>

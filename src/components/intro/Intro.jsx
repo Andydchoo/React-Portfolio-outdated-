@@ -1,6 +1,6 @@
 // working on mobile friendly view.
-//need to fix small empty space under photo
-//looks terrible on mobile/smaller screens
+// looks terrible on mobile/smaller screens
+// change photo to look more professional
 export default function Intro() {
     return (
         <div className="intro" id="intro" style={{
@@ -9,13 +9,17 @@ export default function Intro() {
             height: '100%',
         }}>
             <div className="left-container" style={{
+                display: 'flex',
+                alignItems: 'center',
                 flex: '1',
                 width: '100%',
                 height: 'auto',
-                backgroundColor: '#23272A',
+                backgroundColor: '#a68a64',
                 overflow: 'hidden'
             }}>
                 <div className="imgContainer" style= {{
+                    display: 'flex',
+                    alignItems: 'center',
                     width: '100%',
                     height: 'auto',
                     overflow: 'hidden',
@@ -31,7 +35,7 @@ export default function Intro() {
 
             <div className="right-container" style={{
                 flex: '1',
-                backgroundColor: '#99AAB5',
+                backgroundColor: '#656d4a',
                 postion: 'relative',
                 overflow: 'hidden',
                 height: 'auto'
@@ -47,7 +51,7 @@ export default function Intro() {
                 }}>
                     <h1 style={{
                         fontSize: '6vw',
-                        color: '#404EED',
+                        color: '#582f0e',
                         overflow: 'hidden'
                     }}>
                         {/* Gonna use some api for the time to say good afternoon/morning/evening */}
@@ -56,21 +60,21 @@ export default function Intro() {
 
                     <h2 style={{
                         fontSize: '4vw',
-                        color: '#5865F2',
+                        color: '#7f4f24',
                         overflow: 'hidden'
                     }}>
-                        I am
+                        I am,
                     </h2>
 
                     <h1 style={{
                         fontSize: '6vw',
-                        color: '#404EED',
+                        color: '#582f0e',
                         overflow: 'hidden'
                     }}>
                         Andy Choo
                     </h1>
 
-                    <div style={{fontSize: '3vw', color: '#F6F6F6'}}>
+                    <div style={{fontSize: '3vw', color: '#b6ad90'}}>
                         <h3>- Full-Stack Web Developer</h3>
                         <h3>- Korean-American</h3>
                         <h3>- Crypto Enthusiast</h3>
