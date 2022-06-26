@@ -1,3 +1,4 @@
+import './navbar.css';
 import { Button, Grid } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
@@ -7,7 +8,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 // add hover effect to buttons
-// align buttons with edges of Navbar
 // find better colors for text
 // why does it look so boring and wrong?
 
@@ -19,7 +19,7 @@ export default function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '#7f4f24',
+            backgroundColor: '#8b8c89',
             width: '100%',
             position: 'fixed',
             height: '65px',
@@ -47,17 +47,20 @@ export default function Navbar() {
                 <Grid container alignItems="center" justifyContent="space-between" item xs={12} spacing={1}>
                     <Grid item>
                       <Button
+                          className="btn"
                           href="#intro"
                           variant='contained'
                           size='small'
                           style={{
-                              backgroundColor: '#936639',
-                              color: '#582f0e',
+                              backgroundColor: '#7d8597',
+                              alignItems: 'center',
+                              color: '#e7ecef',
                               fontWeight: '600',
                               fontSize: '1.5vw',
                               border: '2px solid #582f0e',
                               borderRadius: '10px',
                               boxShadow: 'none',
+                              
                           }}>
                               <AccountBoxIcon />
                               Andy Choo
@@ -79,12 +82,14 @@ export default function Navbar() {
                     
                     <Grid item>
                       <Button
+                          className="btn"
                           href="#portfolio"
                           variant='contained'
                           size='small'
                           style={{
                               backgroundColor: '#936639',
                               color: '#582f0e',
+                              alignItems: 'center',
                               fontWeight: '600',
                               fontSize: '1.5vw',
                               border: '2px solid #582f0e',
@@ -99,12 +104,14 @@ export default function Navbar() {
                     
                     <Grid item>
                         <Button
+                            className="btn"
                             href="#resume"
                             variant='contained'
                             size='small'
                             style={{
                                 backgroundColor: '#936639',
                                 color: '#582f0e',
+                                alignItems: 'center',
                                 fontWeight: '600',
                                 fontSize: '1.5vw',
                                 border: '2px solid #582f0e',
@@ -119,12 +126,14 @@ export default function Navbar() {
                     
                     <Grid item>
                         <Button
+                            className="btn"
                             href='https://github.com/Andydchoo'
                             target="_blank"
                             alt='GitHub'
                             size='small'
                             style={{
                                 color: '#582f0e',
+                                alignItems: 'center',
                                 fontWeight: '600',
                                 fontSize: '1.5vw',
                             }}
@@ -133,12 +142,14 @@ export default function Navbar() {
                         </Button>
 
                         <Button
+                            className="btn"
                             href='https://www.linkedin.com/in/andychoo'
                             target="_blank"
                             alt='LinkedIn'
                             size='small'
                             style={{
                                 color: '#582f0e',
+                                alignItems: 'center',
                                 fontWeight: '600',
                                 fontSize: '1.5vw',
                             }}

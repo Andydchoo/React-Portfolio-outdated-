@@ -34,33 +34,37 @@ export default function Intro() {
             </div>
 
             <div className="right-container" style={{
+                display: 'flex',
                 flex: '1',
-                backgroundColor: '#656d4a',
+                backgroundColor: '#e7ecef',
                 postion: 'relative',
                 overflow: 'hidden',
-                height: 'auto'
+                height: 'auto',
+                alignItems: 'center',
+                justifyContent: 'center',
             }}>
                 <div className="wrapper" style={{
                     color: 'white',
                     display: 'flex',
                     flexDirection: 'column',
-                    justifyContent: 'center',
+                    justifyContent: 'space-around',
                     alignItems: 'center',
-                    height: '100%',
+                    height: '75%',
                     overflow: 'hidden'
                 }}>
                     <h1 style={{
-                        fontSize: '6vw',
-                        color: '#582f0e',
-                        overflow: 'hidden'
+                        fontSize: '4vw',
+                        fontWeight: '400',
+                        color: '#274c77',
+                        overflow: 'hidden',
                     }}>
                         {/* Gonna use some api for the time to say good afternoon/morning/evening */}
                         Hello!
                     </h1>
 
                     <h2 style={{
-                        fontSize: '4vw',
-                        color: '#7f4f24',
+                        fontSize: '2vw',
+                        color: '#6096ba',
                         overflow: 'hidden'
                     }}>
                         I am,
@@ -68,13 +72,13 @@ export default function Intro() {
 
                     <h1 style={{
                         fontSize: '6vw',
-                        color: '#582f0e',
+                        color: '#274c77',
                         overflow: 'hidden'
                     }}>
                         Andy Choo
                     </h1>
 
-                    <div style={{fontSize: '3vw', color: '#b6ad90'}}>
+                    <div style={{fontSize: '2vw', color: '#979dac', fontWeight: '200'}}>
                         <h3>- Full-Stack Web Developer</h3>
                         <h3>- Korean-American</h3>
                         <h3>- Crypto Enthusiast</h3>
