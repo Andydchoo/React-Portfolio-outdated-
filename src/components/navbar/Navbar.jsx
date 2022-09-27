@@ -19,7 +19,7 @@ export default function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '#8b8c89',
+            backgroundColor: '#1a3351',
             width: '100%',
             position: 'fixed',
             height: '65px',
@@ -28,10 +28,10 @@ export default function Navbar() {
             scroll: 'sticky',
             overflow: 'hidden',
         }}>
-            <Grid container style={{
+            {/* <Grid container style={{
                 display: 'flex',
                 justifyContent: 'center',
-            }}>
+            }}> */}
                 {/* <Grid item xs={6}>
                         <a href="#intro" className="name"
                             style={{
@@ -44,7 +44,7 @@ export default function Navbar() {
                                 Andy Choo
                         </a>
                 </Grid> */}
-                <Grid container alignItems="center" justifyContent="space-between" item xs={12} spacing={1}>
+                <Grid container alignItems="center" justifyContent='space-between' item xs={12} spacing={1}>   
                     <Grid item>
                       <Button
                           className="btn"
@@ -57,7 +57,7 @@ export default function Navbar() {
                               color: '#e7ecef',
                               fontWeight: '600',
                               fontSize: '1.5vw',
-                              border: '2px solid #582f0e',
+                              border: '2px solid #e7ecef',
                               borderRadius: '10px',
                               boxShadow: 'none',
                               
@@ -87,12 +87,12 @@ export default function Navbar() {
                           variant='contained'
                           size='small'
                           style={{
-                              backgroundColor: '#936639',
-                              color: '#582f0e',
+                              backgroundColor: '#7d8597',
+                              color: '#e7ecef',
                               alignItems: 'center',
                               fontWeight: '600',
                               fontSize: '1.5vw',
-                              border: '2px solid #582f0e',
+                              border: '2px solid #e7ecef',
                               borderRadius: '10px',
                               boxShadow: 'none',
                           }}
@@ -109,12 +109,12 @@ export default function Navbar() {
                             variant='contained'
                             size='small'
                             style={{
-                                backgroundColor: '#936639',
-                                color: '#582f0e',
+                                backgroundColor: '#7d8597',
+                                color: '#e7ecef',
                                 alignItems: 'center',
                                 fontWeight: '600',
                                 fontSize: '1.5vw',
-                                border: '2px solid #582f0e',
+                                border: '2px solid #e7ecef',
                                 borderRadius: '10px',
                                 boxShadow: 'none',
                             }}
@@ -123,7 +123,6 @@ export default function Navbar() {
                             Resume
                         </Button>
                     </Grid>
-                    
                     <Grid item>
                         <Button
                             className="btn"
@@ -132,7 +131,7 @@ export default function Navbar() {
                             alt='GitHub'
                             size='small'
                             style={{
-                                color: '#582f0e',
+                                color: '#e7ecef',
                                 alignItems: 'center',
                                 fontWeight: '600',
                                 fontSize: '1.5vw',
@@ -148,7 +147,7 @@ export default function Navbar() {
                             alt='LinkedIn'
                             size='small'
                             style={{
-                                color: '#582f0e',
+                                color: '#e7ecef',
                                 alignItems: 'center',
                                 fontWeight: '600',
                                 fontSize: '1.5vw',
@@ -158,7 +157,6 @@ export default function Navbar() {
                         </Button>
                     </Grid>
                 </Grid>
-            </Grid>
             
         </div>
     )

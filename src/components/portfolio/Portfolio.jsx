@@ -40,7 +40,7 @@ export default function Portfolio() {
                     <a href="https://github.com/Copernichris/CryptoWatch" target="_blank" rel="noreferrer">
                         <h3 style={{
                             display: 'flex',
-                            color: '#7f4f24',
+                            color: '#274c77',
                             textDecoration: 'none',
                             justifyContent: 'center',
                             }}>
@@ -65,7 +65,7 @@ export default function Portfolio() {
                         <h3 style={{
                                 display: 'flex',
                                 justifyContent: 'center',
-                                color: '#7f4f24',
+                                color: '#274c77',
                                 textDecoration: 'none'
                             }}>
                                 VodU
@@ -101,7 +101,7 @@ export default function Portfolio() {
                         <h3 style={{
                                 display: 'flex',
                                 justifyContent: 'center',
-                                color: '#7f4f24',
+                                color: '#274c77',
                                 textDecoration: 'none'
                             }}>
                                 RGMarket
@@ -125,7 +125,7 @@ export default function Portfolio() {
                         <h3 style={{
                                 display: 'flex',
                                 justifyContent: 'center',
-                                color: '#7f4f24',
+                                color: '#274c77',
                                 textDecoration: 'none'
                             }}>
                                 Note Taker

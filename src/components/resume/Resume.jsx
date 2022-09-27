@@ -2,13 +2,14 @@
 //fix design of left side
 import './resume.css'
 import Stack from '@mui/material/Stack';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 export default function Resume() {
     return (
         <div
             id='resume'
             style={{
-                backgroundColor: '#936639',
+                backgroundColor: '#e7ecef',
                 height: '100%',
                 display: 'flex',
                 justifyContent: 'center',
@@ -29,10 +30,9 @@ export default function Resume() {
                   href="https://docs.google.com/document/d/1WmBt5b2q4WbkGnadHP-Qx6uI7-VqkDmVg1RgikmBp2k/edit?usp=sharing" 
                   target="_blank"
                   style={{
-                      color: '#333d29',
-                      textDecoration: 'none'
-                  }}
-                >
+                    color: '#274c77',
+                    textDecoration: 'none'
+                  }}>
                     Resume
                 </a>
             </h1>
@@ -41,7 +41,7 @@ export default function Resume() {
                     display: 'flex',
                     flex: '1',
                     justifyContent: 'center',
-                    backgroundColor: '#656d4a'
+                    backgroundColor: '#1a3351'
             }}>
                 <img src="assets/resume.png" alt="resume"/>
             </div>
