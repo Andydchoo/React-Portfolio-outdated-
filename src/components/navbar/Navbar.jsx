@@ -1,4 +1,3 @@
-import './navbar.css';
 import { Button, Grid } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
