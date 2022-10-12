@@ -8,6 +8,7 @@ export default function Intro() {
             backgroundColor: 'coral',
             height: '100%',
         }}>
+            {/* Left container for personal photo */}
             <div className="left-container" style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -33,6 +34,7 @@ export default function Intro() {
                 </div>
             </div>
 
+            {/* Right container for brief introduction */}
             <div className="right-container" style={{
                 display: 'flex',
                 flex: '1',
@@ -58,7 +60,6 @@ export default function Intro() {
                         color: '#274c77',
                         overflow: 'hidden',
                     }}>
-                        {/* Gonna use some api for the time to say good afternoon/morning/evening */}
                         Hello!
                     </h1>
 
@@ -78,10 +79,11 @@ export default function Intro() {
                         Andy Choo
                     </h1>
 
-                    <div style={{fontSize: '2vw', color: '#979dac', fontWeight: '200'}}>
+                    <div style={{fontSize: '2vw', color: '#979dac', fontWeight: '200', justifyContent: 'center'}}>
                         <h3>- Full-Stack Web Developer</h3>
                         <h3>- Korean-American</h3>
                         <h3>- Crypto Enthusiast</h3>
+                        <h3>- Keyboard hobbyist</h3>
                     </div>
                 </div>
             </div>

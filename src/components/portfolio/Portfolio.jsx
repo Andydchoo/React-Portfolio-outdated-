@@ -1,10 +1,5 @@
-// import './portfolio.css'
-
 import Container from '@mui/material/Container';
-
-// make names of apps on side vertical
-// add little blocks on ends for the name of apps
-// change text font/color/size
+import { Button, Grid } from '@mui/material';
 
 export default function Portfolio() {
     return (
@@ -17,36 +12,26 @@ export default function Portfolio() {
                 width: '100%',
             }}
         >
-            {/* <h1
-                style={{
-                    fontSize: '6vw',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    color: '#404EED',
-                }}
-            >
-                Portfolio
-            </h1> */}
+            {/* Left container for keeping items grouped in component */}
             <Container
                 style={{
                     height: '50%',
-                    padding: '0',
                     display: 'flex',
                     flexWrap: 'wrap',
                 }}
             >
 
                 <div style={{flex: '1', height: '100%'}}>
-                    <a href="https://github.com/Copernichris/CryptoWatch" target="_blank" rel="noreferrer">
+                    <Button href="https://github.com/Copernichris/CryptoWatch" target="_blank" rel="noreferrer">
                         <h3 style={{
                             display: 'flex',
                             color: '#274c77',
                             textDecoration: 'none',
-                            justifyContent: 'center',
+                            fontSize: '30px'
                             }}>
                                 CryptoWatch
                             </h3>
-                    </a>
+                    </Button>
                     <a href="https://copernichris.github.io/CryptoWatch/" target="_blank" rel="noreferrer">
                         <img
                         src="assets/cryptowatch.png"
@@ -61,16 +46,16 @@ export default function Portfolio() {
                 </div>
 
                 <div style={{flex: '1', height: '100%'}}>
-                    <a href="https://github.com/Copernichris/Vodu" target="_blank" rel="noreferrer">
+                    <Button href="https://github.com/Copernichris/Vodu" target="_blank" rel="noreferrer">
                         <h3 style={{
                                 display: 'flex',
-                                justifyContent: 'center',
                                 color: '#274c77',
-                                textDecoration: 'none'
+                                textDecoration: 'none',
+                                fontSize: '30px'
                             }}>
                                 VodU
                             </h3>
-                    </a>
+                    </Button>
                     <a href="https://vodu2.herokuapp.com/" target="_blank" rel="noreferrer">
                         <img 
                             src="assets/vodu.png"
@@ -85,28 +70,28 @@ export default function Portfolio() {
                 </div>
 
             </Container>
-
+            
+            {/* Right container for grouping items in the Portfolio component */}
             <Container
                 style={{
                     height: '50%',
                     display: 'flex',
                     flexWrap: 'wrap',
                     flexDirection: 'row',
-                    padding: '0'
                 }}
             >
                 
                 <div style={{flex: '1', height: '100%'}}>
-                    <a href="https://github.com/Andydchoo/Retro-Game-Market" target="_blank" rel="noreferrer">
+                    <Button href="https://github.com/Andydchoo/Retro-Game-Market" target="_blank" rel="noreferrer">
                         <h3 style={{
                                 display: 'flex',
-                                justifyContent: 'center',
                                 color: '#274c77',
-                                textDecoration: 'none'
+                                textDecoration: 'none',
+                                fontSize: '30px'
                             }}>
                                 RGMarket
                             </h3>
-                    </a>
+                    </Button>
                     <a href="https://retro-game-market.herokuapp.com/" target="_blank" rel="noreferrer">
                         <img
                             src="assets/rgmarket.png"
@@ -121,16 +106,16 @@ export default function Portfolio() {
                 </div>
 
                 <div style={{flex: '1', height: '100%'}}>
-                    <a href="https://github.com/Andydchoo/Note-Taker" target="_blank" rel="noreferrer">
+                    <Button href="https://github.com/Andydchoo/Note-Taker" target="_blank" rel="noreferrer">
                         <h3 style={{
                                 display: 'flex',
-                                justifyContent: 'center',
                                 color: '#274c77',
-                                textDecoration: 'none'
+                                textDecoration: 'none',
+                                fontSize: '30px'
                             }}>
                                 Note Taker
                             </h3>
-                    </a>
+                    </Button>
                     <a href="https://notetakinghw.herokuapp.com/notes" target="_blank" rel="noreferrer">
                         <img
                             src="assets/notetaker.png"
