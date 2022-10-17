@@ -2,59 +2,105 @@
 //fix design of left side
 import Stack from '@mui/material/Stack';
 import DescriptionIcon from '@mui/icons-material/Description';
+import { Button } from '@mui/material';
 
 export function ResumeDesktop() {
-    return (
-        <div
-            id='resume'
+  return (
+    <div
+      id='resume'
+      style={{
+        backgroundColor: '#e7ecef',
+        height: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+    }}>
+    {/* Dividing component into two halves to make more use of space */}
+        <Button style={{display: 'flex', flex: '1',}}>
+        <h1 
+            className="resumeH1"
             style={{
-                backgroundColor: '#e7ecef',
-                height: '100%',
-                display: 'flex',
-                justifyContent: 'center',
-            }}
-        >
-            {/* Dividing component into two halves to make more use of space */}
-            <h1 
-                className="resumeH1"
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              fontSize: '6vw',
+              overflow: 'hidden',
+              color: '#404EED'
+        }}>
+            <a 
+                href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing" 
+                target="_blank"
                 style={{
-                display: 'flex',
-                flex: '1',
-                justifyContent: 'center',
-                alignItems: 'center',
-                fontSize: '6vw',
-                overflow: 'hidden',
-                color: '#404EED'
-                }}
-            >
-                <a 
-                    href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing" 
-                    target="_blank"
-                    style={{
-                    color: '#274c77',
-                    textDecoration: 'none'
-                    }}>
-                    Resume
-                </a>
-            </h1>
-            <div 
-                className="resumePNG"
-                style={{
-                    display: 'flex',
-                    flex: '1',
-                    justifyContent: 'center',
-                    backgroundColor: '#1a3351'
-            }}>
-                <img src="assets/resume.png" alt="resume"/>
-            </div>
-        </div>
-    )
+                color: '#274c77',
+                textDecoration: 'none'
+                }}>
+                Resume
+            </a>
+        </h1>
+      </Button>
+      <Button 
+        className="resumePNG"
+        href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing"
+        target="_blank"
+        style={{
+          display: 'flex',
+          flex: '1',
+          justifyContent: 'center',
+      }}>
+        <img 
+          src="assets/resume.png" 
+          alt="resume"
+        />
+      </Button>
+    </div>
+  )
 }
 
 export function ResumeMobile() {
-    return(
-        <div>
-            Mobile viewing in works
-        </div>
-    )
+  return (
+    <div
+        id='resume'
+        style={{
+          display: 'flex',
+          backgroundColor: '#e7ecef',
+          height: '100%',
+          justifyContent: 'center',
+          flexDirection: 'column'
+    }}>
+      <Button>
+        <h1 
+            className="resumeH1"
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              fontSize: '6vw',
+              overflow: 'hidden',
+              color: '#404EED'
+        }}>
+            <a 
+                href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing" 
+                target="_blank"
+                style={{
+                color: '#274c77',
+                textDecoration: 'none'
+                }}>
+                Resume
+            </a>
+        </h1>
+      </Button>
+      <Button 
+        className="resumePNG"
+        href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing"
+        target="_blank"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+      }}>
+          <img 
+            src="assets/resume.png" 
+            alt="resume"
+          />
+      </Button>
+    </div>
+  )
 }
