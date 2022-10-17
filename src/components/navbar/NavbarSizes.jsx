@@ -131,6 +131,7 @@ export function NavbarDesktop() {
 }
 //Looking to change background color of menu.
 //Make menu go away after clicking on an item
+//Align the items and icons in the menu
 export function NavbarMobile() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -183,9 +184,9 @@ export function NavbarMobile() {
                             display: 'flex',
                         }}
                         >
-                        <MenuItem href="#Intro"><AccountBoxIcon />Intro</MenuItem>
-                        <MenuItem href="#Portfolio"><CodeIcon />Portfolio</MenuItem>
-                        <MenuItem href="#Resume"><DescriptionIcon />Resume</MenuItem>
+                        <MenuItem href="#intro"><AccountBoxIcon />Intro</MenuItem>
+                        <MenuItem href="#portfolio"><CodeIcon />Portfolio</MenuItem>
+                        <MenuItem href="#resume"><DescriptionIcon />Resume</MenuItem>
                     </Menu>
                     <Typography variant="h1" fontSize="6vw" fontWeight="400" component="div" color="#e7ecef" sx={{ flexGrow: 1 }}>
                         Andy Choo
