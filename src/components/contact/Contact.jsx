@@ -29,7 +29,7 @@ export default function Contact() {
               borderRadius: '20px',
               margin: '20px',
               width: '25%',
-              marginLeft: '30%',
+              marginLeft: '35%',
           }}>
             <Typography 
               variant="button" 

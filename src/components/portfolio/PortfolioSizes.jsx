@@ -11,18 +11,19 @@ export function PortfolioDesktop() {
           height: '50%',
           display: 'flex',
           flexWrap: 'wrap',
-          textAlign: 'center'
+          textAlign: 'center',
       }}>
-        <div style={{flex: '1', height: '100%'}}>
+
+        <div style={{flex: '1', height: '100%', margin: '1%'}}>
           <Button href="https://github.com/Copernichris/CryptoWatch" target="_blank" rel="noreferrer">
             <h3 
               style={{
                 display: 'flex',
                 color: '#274c77',
                 textDecoration: 'none',
-                fontSize: '30px',
+                fontSize: '25px',
             }}>
-              CryptoWatch
+              Crypto Watch
             </h3>
           </Button>
           <a href="https://copernichris.github.io/CryptoWatch/" target="_blank" rel="noreferrer">
@@ -37,14 +38,14 @@ export function PortfolioDesktop() {
           </a>
         </div>
 
-        <div style={{flex: '1', height: '100%'}}>
+        <div style={{flex: '1', height: '100%', margin: '1%'}}>
           <Button href="https://github.com/Copernichris/Vodu" target="_blank" rel="noreferrer">
             <h3 
               style={{
                 display: 'flex',
                 color: '#274c77',
                 textDecoration: 'none',
-                fontSize: '30px'
+                fontSize: '25px'
             }}>
               VodU
             </h3>
@@ -71,14 +72,14 @@ export function PortfolioDesktop() {
           textAlign: 'center'
       }}>
           
-        <div style={{flex: '1', height: '100%'}}>
+        <div style={{flex: '1', height: '100%', margin: '1%'}}>
           <Button href="https://github.com/Andydchoo/Retro-Game-Market" target="_blank" rel="noreferrer">
             <h3 
               style={{
                 display: 'flex',
                 color: '#274c77',
                 textDecoration: 'none',
-                fontSize: '30px'
+                fontSize: '25px'
             }}>
               RGMarket
             </h3>
@@ -95,14 +96,14 @@ export function PortfolioDesktop() {
           </a>
         </div>
 
-          <div style={{flex: '1', height: '100%'}}>
+          <div style={{flex: '1', height: '100%', margin: '1%'}}>
             <Button href="https://github.com/Andydchoo/Note-Taker" target="_blank" rel="noreferrer">
               <h3 
                 style={{
                   display: 'flex',
                   color: '#274c77',
                   textDecoration: 'none',
-                  fontSize: '30px'
+                  fontSize: '25px'
               }}>
                 Note Taker
               </h3>
