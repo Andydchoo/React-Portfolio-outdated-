@@ -24,7 +24,7 @@ export function NavbarDesktop() {
             overflow: 'hidden',
         }}>
             {/* Using grid to group the items in the navbar */}
-            <Grid container alignItems="center" justifyContent='space-between' item xs={12} spacing={1}>
+            <Grid container justifyContent='space-between' alignItems='center' item xs={12} paddingLeft='20px'>
                 <Grid item className="intro">
                     <Button
                         className="btn"
@@ -36,7 +36,7 @@ export function NavbarDesktop() {
                             alignItems: 'center',
                             color: '#e7ecef',
                             fontWeight: '600',
-                            fontSize: '1.5vw',
+                            fontSize: '2vw',
                             border: '2px solid #e7ecef',
                             borderRadius: '10px',
                             boxShadow: 'none',
@@ -58,7 +58,7 @@ export function NavbarDesktop() {
                             color: '#e7ecef',
                             alignItems: 'center',
                             fontWeight: '600',
-                            fontSize: '1.5vw',
+                            fontSize: '2vw',
                             border: '2px solid #e7ecef',
                             borderRadius: '10px',
                             boxShadow: 'none',
@@ -80,7 +80,7 @@ export function NavbarDesktop() {
                             color: '#e7ecef',
                             alignItems: 'center',
                             fontWeight: '600',
-                            fontSize: '1.5vw',
+                            fontSize: '2vw',
                             border: '2px solid #e7ecef',
                             borderRadius: '10px',
                             boxShadow: 'none',
@@ -132,6 +132,7 @@ export function NavbarDesktop() {
 //Looking to change background color of menu.
 //Make menu go away after clicking on an item
 //Align the items and icons in the menu
+//Navigation links dont seem to work
 export function NavbarMobile() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -153,7 +154,8 @@ export function NavbarMobile() {
                 top: '0',
                 zIndex: '2',
                 scroll: 'sticky',
-                overflow: 'hidden',}}>
+                overflow: 'hidden',
+            }}>
                 <Toolbar>
                     <IconButton
                         id="menu"
@@ -188,8 +190,18 @@ export function NavbarMobile() {
                         <MenuItem href="#portfolio"><CodeIcon />Portfolio</MenuItem>
                         <MenuItem href="#resume"><DescriptionIcon />Resume</MenuItem>
                     </Menu>
-                    <Typography variant="h1" fontSize="6vw" fontWeight="400" component="div" color="#e7ecef" sx={{ flexGrow: 1 }}>
-                        Andy Choo
+                    <Typography 
+                      variant="h8"
+                      sx={{ flexGrow: 1 }}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        fontSize: "6vw",
+                        fontWeight: "500",
+                        component: "div",
+                        color: "#e7ecef"
+                    }}>
+                      Andy Choo
                     </Typography>
                     <Button
                         className="btn"

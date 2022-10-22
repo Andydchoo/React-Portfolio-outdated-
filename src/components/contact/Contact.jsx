@@ -1,56 +1,45 @@
-//currently working on mobile friendly views
-//changed some css into mui styling
-//working on how to make image scale on larger/smaller screens
-//need to make contact form actually function
-import { useState } from "react";
-import './contact.css';
+import { Button, Container, Typography } from '@mui/material';
 
 export default function Contact() {
-    const [message, setMessage] = useState(false)
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        //figuring out how to check if there is text or not in box
-        setMessage(true);
-    }
-
     return (
-        <div
-            className="contact"
-            id="contact"
-            style={{
-                backgroundColor: 'white',
-                display: 'flex'
-            }}
-        >
-            <div
-                className="left-container"
-                style={{
-                    flex: '1',
-                    overflow: 'hidden'
-                }}
-            >
-                <img
-                    src="assets/handshake.jpg"
-                    alt="Two Men Shaking Hands"
-                    style={{
-                        width: '100%',
-                        height: 'auto',
-                        overflow: 'hidden'
-                    }}
-                />
-            </div>
-            <div className="right-container">
-                <h2>Contact</h2>
-                <h2 style={{color: 'black', paddingTop: '25px'}}>For any inquiries,</h2>
-                <h2 style={{color: 'black', paddingTop: '15px'}}>please reach out to my email: <h2 href='email'>andydchoo@gmail.com</h2></h2>
-                {/* <form onSubmit={handleSubmit}>
-                    <input className="email" type="text" placeholder="Email"/>
-                    <textarea className="message" placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
-                    {(message == true) && <span>Thank you for your message!</span>}
-                </form> */}
-            </div>
-        </div>
+      <Container 
+        className="contact" 
+        style={{
+          display: 'flex',
+          alignItems: 'start',
+          flexDirection: 'column',
+          backgroundColor: '#1a3351'
+      }}>
+          <h1 style={{ display: 'flex', fontWeight: '600', fontSize: '6vw', color: '#e7ecef'}}>
+            Connect: 
+          </h1>
+          <h2 style={{ display: 'flex', fontWeight: '400', fontSize: '4vw', paddingLeft: '10%', color: '#e7ecef'}}>
+            I'd love to talk!
+          </h2>
+          <Button 
+            variant="contained"
+            size="large"
+            target="_top"
+            rel="noopener noreferrer"
+            href={`mailto:andydchoo@gmail.com`} 
+            style={{ 
+              display: 'flex', 
+              alignItems: 'center',
+              backgroundColor: '#6096ba',
+              borderRadius: '20px',
+              margin: '20px',
+              width: '25%',
+              marginLeft: '30%',
+          }}>
+            <Typography 
+              variant="button" 
+              style={{ 
+                fontSize: '2vw', 
+                fontWeight: '600'
+            }}>
+              Contact Me
+            </Typography>
+          </Button>
+            </Container>
     )
 }

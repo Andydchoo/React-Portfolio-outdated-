@@ -27,13 +27,13 @@ export function ResumeDesktop() {
               color: '#404EED'
         }}>
             <a 
-                href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing" 
-                target="_blank"
-                style={{
-                color: '#274c77',
-                textDecoration: 'none'
-                }}>
-                Resume
+              href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing" 
+              target="_blank"
+              style={{
+              color: '#274c77',
+              textDecoration: 'none'
+            }}>
+              Resume
             </a>
         </h1>
       </Button>
@@ -64,7 +64,9 @@ export function ResumeMobile() {
           backgroundColor: '#e7ecef',
           height: '100%',
           justifyContent: 'center',
-          flexDirection: 'column'
+          flexDirection: 'column',
+          margin: 'none',
+          padding: 'none'
     }}>
       <Button>
         <h1 
@@ -78,13 +80,14 @@ export function ResumeMobile() {
               color: '#404EED'
         }}>
             <a 
-                href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing" 
-                target="_blank"
-                style={{
-                color: '#274c77',
-                textDecoration: 'none'
-                }}>
-                Resume
+              href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing" 
+              target="_blank"
+              style={{
+              color: '#274c77',
+              textDecoration: 'none',
+              alignItems: 'center',
+            }}>
+              Resume
             </a>
         </h1>
       </Button>
@@ -92,14 +95,11 @@ export function ResumeMobile() {
         className="resumePNG"
         href="https://docs.google.com/document/d/1nLiP4xkcmvnuA8g9GN72zhD537m8yjlW0qt6zR9ELRY/edit?usp=sharing"
         target="_blank"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-      }}>
-          <img 
-            src="assets/resume.png" 
-            alt="resume"
-          />
+      >
+        <img 
+          src="assets/resume.png" 
+          alt="resume"
+        />
       </Button>
     </div>
   )

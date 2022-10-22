@@ -1,7 +1,6 @@
 import { createTheme } from "@mui/material";
 
 export const theme = createTheme({
-
     breakpoints: {
         values: {
             mobile: 0,
@@ -9,5 +8,10 @@ export const theme = createTheme({
             laptop: 1024,
             desktop: 1200
         }
-    }
+    },
+    typography: {
+      fontFamily: [
+        'Montserrat'
+      ]
+    },
 });
