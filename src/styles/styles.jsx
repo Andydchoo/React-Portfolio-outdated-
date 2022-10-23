@@ -4,7 +4,7 @@ export const theme = createTheme({
     breakpoints: {
         values: {
             mobile: 0,
-            tablet: 550,
+            tablet: 613,
             laptop: 1024,
             desktop: 1200
         }

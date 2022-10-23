@@ -1,5 +1,5 @@
 import { styled } from "@mui/material/styles";
-import { IntroDesktop, IntroMobile } from "./Introsizes";
+import { IntroDesktop, IntroMobile } from "./IntroSizes";
 import { useTheme } from "@mui/material/styles";
 import {useMediaQuery } from "@mui/material";
 

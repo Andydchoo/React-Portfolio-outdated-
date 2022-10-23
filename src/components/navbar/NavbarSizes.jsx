@@ -7,6 +7,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MenuIcon from '@mui/icons-material/Menu';
+import MailIcon from '@mui/icons-material/Mail';
 
 export function NavbarDesktop() {
     return (
@@ -88,6 +89,28 @@ export function NavbarDesktop() {
                     >
                         <DescriptionIcon />
                         Resume
+                    </Button>
+                </Grid>
+
+                <Grid item className="contact">
+                    <Button
+                        className="btn"
+                        href="#contact"
+                        variant='contained'
+                        size='small'
+                        style={{
+                            backgroundColor: '#7d8597',
+                            color: '#e7ecef',
+                            alignItems: 'center',
+                            fontWeight: '600',
+                            fontSize: '2vw',
+                            border: '2px solid #e7ecef',
+                            borderRadius: '10px',
+                            boxShadow: 'none',
+                        }}
+                    >
+                        <MailIcon />
+                        Contact
                     </Button>
                 </Grid>
 
@@ -186,9 +209,30 @@ export function NavbarMobile() {
                             display: 'flex',
                         }}
                         >
-                        <MenuItem href="#intro"><AccountBoxIcon />Intro</MenuItem>
-                        <MenuItem href="#portfolio"><CodeIcon />Portfolio</MenuItem>
-                        <MenuItem href="#resume"><DescriptionIcon />Resume</MenuItem>
+                        <MenuItem onClick={handleClose}> 
+                          <Button href="#intro">
+                            <AccountBoxIcon />
+                            Intro
+                          </Button>
+                        </MenuItem>
+                        <MenuItem onClick={handleClose}>
+                          <Button href="#portfolio">
+                            <CodeIcon />
+                              Portfolio
+                          </Button>
+                        </MenuItem>
+                        <MenuItem onClick={handleClose}>
+                          <Button href="#resume">
+                            <DescriptionIcon />
+                            Resume
+                          </Button>
+                        </MenuItem>
+                        <MenuItem onClick={handleClose}>
+                          <Button href="#contact">
+                            <MailIcon />
+                            Contact
+                          </Button>
+                        </MenuItem>
                     </Menu>
                     <Typography 
                       variant="h8"

@@ -4,6 +4,7 @@ import { Button, Grid, Container, AppBar, Box, Toolbar, Typography, IconButton, 
 export function IntroDesktop() {
   return (
     <Container 
+      id="intro"
       disableGutters
       style={{
         display: 'flex',
@@ -52,11 +53,11 @@ export function IntroDesktop() {
       }}>
         <Container
           disableGutters 
-          className="wrapper" 
           style={{
             color: 'white',
             display: 'flex',
             flexDirection: 'column',
+            overflow: 'hidden',
             height: '100%',
         }}>
           <Typography
@@ -66,7 +67,7 @@ export function IntroDesktop() {
               fontSize: '6vw',
               fontWeight: '500',
               color: '#274c77',
-              scroll: 'none',
+              overflow: 'hidden',
               marginLeft: '5%'
           }}>
               Hello!
@@ -120,6 +121,7 @@ export function IntroDesktop() {
 export function IntroMobile() {
   return (
     <Container 
+      id="intro"
       disableGutters
       style={{
         display: 'flex',
