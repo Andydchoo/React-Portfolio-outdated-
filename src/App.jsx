@@ -12,7 +12,7 @@ import { theme } from "./styles/styles";
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="app" style={{height: '100vh', maxHeight: '100%', backgroundColor: 'transparent'}}>
+      <div className="app" style={{height: '100vh', maxHeight: '100%'}}>
         <Navbar />
         <div 
           className="sections" 
