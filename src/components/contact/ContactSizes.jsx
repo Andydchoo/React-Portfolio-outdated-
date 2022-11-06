@@ -35,13 +35,12 @@ export function ContactDesktop() {
               color: '#e7ecef',
           }}>
             My email is always open for:
-            <Container style={{ paddingLeft: '5vw'}}>
+            <Container style={{ paddingLeft: '5vw', overflow: 'hidden'}}>
+              -Project ideas
               <br></br>
-              -project ideas
+              -Improvements
               <br></br>
-              -improvements
-              <br></br>
-              -job opportunites
+              -Job opportunites
             </Container>
           </Typography>
           <Container style={{ display: 'flex', justifyContent: 'center' }}>
@@ -109,14 +108,14 @@ export function ContactMobile() {
             fontSize: '4vw', 
             color: '#e7ecef',
         }}>
-          My email is always open for
+          My email is always open for:
           <Container style={{ paddingLeft: '5vw' }}>
             <br></br>
-            -project ideas
+            -Project ideas
             <br></br>
-            -improvements
+            -Advice
             <br></br>
-            -job opportunites
+            -Job Opportunites
           </Container>
         </Typography>
         <Container style={{ display: 'flex', justifyContent: 'center' }}>
