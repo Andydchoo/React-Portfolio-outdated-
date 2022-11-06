@@ -109,7 +109,7 @@ export function IntroDesktop() {
           }}>
             <h3>- Full-Stack Web Developer</h3>
             <h3>- Korean-American</h3>
-            <h3>- Crypto Enthusiast</h3>
+            <h3>- Tech enthusiast</h3>
             <h3>- Keyboard hobbyist</h3>
           </div>
         </Container>
